@@ -1,0 +1,172 @@
+html {
+  all: unset;
+  scroll-behavior: smooth;
+}
+
+body {
+  all: unset;
+  font-family: "Lexend", sans-serif;
+}
+
+h1 {
+  all: unset;
+  font-size: 5em;
+  background-color: #b89a61;
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  all: unset;
+  font-size: 3em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section .content {
+  max-width: 960px;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+section .content img {
+  display: flex;
+  height: 150px;
+  width: 250px;
+  float: left;
+  display: flexbox;
+  border: 5px solid black;
+  border-radius: 8px;
+}
+
+section .content .content-data {
+  width: 694px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#Footer {
+  display: flex;
+  flex-grow: 1;
+  background-image: url("./tangerine-newt-a9rxefN9vgY-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer > nav > ul {
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header > nav {
+  background-color: #a9c77e;
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul {
+  margin: 0;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  width: 960px;
+}
+
+nav > ul > li {
+  display: block;
+  font-size: 1.25em;
+}
+
+#Top {
+  background-color: #61ab5a;
+  display: flex;
+  flex-direction: row;
+}
+#Middle {
+  background-color: #f2ecae;
+  display: flex;
+  flex-direction: row;
+}
+#Bottom {
+  background-color: #563429;
+  display: flex;
+  flex-direction: row;
+}
+
+#Facts {
+  padding: 16px 0 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 201, 169);
+}
+
+#Facts > .cards {
+  max-width: 848px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.75em;
+  position: relative;
+}
+
+#Facts > .cards > h2 {
+  position: absolute;
+  top: 144px;
+  left: -200px;
+  transform: rotate(270deg);
+}
+
+#Facts > .cards > .card {
+  padding: 8px;
+  flex-basis: 184px;
+  height: 304px;
+  background-color: #fff;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 8px 20px #1c1c1c1f;
+}
+
+#Facts > .cards > .card > .card-thumbnail {
+  flex: 0 0 180px;
+
+  width: 182px;
+  height: 180px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Facts > .cards > .card > .card-thumbnail > img {
+  all: unset;
+  width: 182px;
+}
+
+#Facts > .cards > .card > .card-description {
+  flex: 1 0;
+  all: unset;
+  overflow: hidden;
+}
