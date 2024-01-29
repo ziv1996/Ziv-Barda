@@ -54,7 +54,7 @@ section .content .content-data {
 #Footer {
   display: flex;
   flex-grow: 1;
-  background-image: url("./tangerine-newt-a9rxefN9vgY-unsplash.jpg");
+  background-image: url("./images//tangerine-newt-a9rxefN9vgY-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 300px;
